@@ -1,0 +1,163 @@
+.c1{
+	border: solid rgb(33, 33, 34) 1px;
+	background-color: rgb(33, 33, 34);
+    height: 30px;
+}
+
+.c1{
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	opacity: 90%;
+
+	
+}
+.c1 li{
+	display: inline;
+}
+.c1 li a{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: xx-small;
+    color:white;
+	text-decoration: none;
+	padding-right: 30px;	
+}
+
+.c1 ul{
+	
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	text-align: center;
+
+}
+.c2{
+	border: solid floralwhite 1px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color:whitesmoke;
+	font-size: smaller;
+	color: rgb(44, 53, 57);
+	
+}
+.c2 a{
+	font-size: smaller;
+	text-decoration: none;
+	color: blue;
+}
+.c3 a:hover{
+	background-color: rgb(28, 211, 171);
+}
+
+.c3 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: rgb(243, 237, 237)  solid 0.1px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.c4 img{
+	display: block;
+	height: 100%;
+	border:black solid -0.5px;
+	margin: auto;
+	width:100%;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.c5 img{
+	display: block;
+	border: rgb(235, 232, 232)  solid 1px;
+	margin: auto;
+	width:100%;	
+	height: 100%;
+	margin-top: 20px;	
+}
+
+
+.container{
+	background-color: whitesmoke;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2px;
+}
+.image{
+	border: 0.1px solid white;
+	padding: 10px;
+	background-color: white;
+}
+.container img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.container-2{
+    
+	background-color: rgb(240, 238, 238);
+	width: 100%;
+	margin: auto;
+	padding-top: 10px;
+	font-size: x-small;
+	color: grey;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-2 p{
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+.container-2 a{
+	text-decoration:none ;
+	color: blue;
+}
+.cpyright{
+	color: rgb(124, 122, 122);
+}
+.privacy ul li{
+	display: inline;
+	padding: 10px;
+}
+.privacy a{
+	color:rgb(44, 53, 57) ;
+}
+
+
+
+
+
+
+/*[practice]
+flexbox*/
+/*.container>div{
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	color: black;
+}
+/*grid
+.parent{
+	margin: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	
+}
+.child{
+	border: 1px solid black;
+	padding: 10px;
+	background-color: aqua;
+*/
+
+}
